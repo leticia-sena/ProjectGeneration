@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generation</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!--HOME-->
+    <nav class="menu">
+        <ul>
+            <li><img id="logo" src="./assets/img/logoAzul.png" alt="Logo Azul da Generation"></li>
+            <li>
+                <a href=""> Sobre a Generation</a>
+            </li>
+            <li>
+                <a href=""> Sobre o Curso</a>
+            </li>
+            <li>
+                <a href=""> Curriculo</a>
+            </li>
+            <li>
+                <a href=""> Mercado de trabalho</a>
+            </li>
+            <li>
+                <a href=""> Inscreva-se</a>
+            </li>
+    </nav>
+    <!--/HOME-->
+
+    <!--SOBRE A GENERATION-->
+    <div id="backg">
+        <section id="generation">
+            <h1 class="center">Sobre a Generation</h1>
+
+            <div id="contGen">
+                <div id="marginText">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate saepe itaque magnam iste possimus asperiores, odio sed, distinctio quibusdam animi alias omnis optio repudiandae esse vel. Atque perferendis ipsa ut?
+                    </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet temporibus explicabo provident incidunt aliquam? Aliquid incidunt dignissimos placeat dolore dicta nesciunt praesentium facilis voluptatibus, sed, molestias vel quos,
+                        deserunt repellendus.
+                    </p>
+                </div>
+
+                <div id="videoGen">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kdGWKGM7yoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--/SOBRE A GENERATION-->
+
+    <!--SOBRE O CURSO-->
+    <section id="curso">
+        <h2 class="center"> Sobre o Curso</h2>
+
+        <div id="contCurso">
+            <div>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores totam, dignissimos optio quibusdam odit eius? Architecto libero sequi officia voluptatibus cum facere, earum voluptas? Voluptatibus facilis laborum dolore ab enim.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum alias suscipit perferendis, error culpa doloribus labore id quo numquam et hic velit iusto recusandae vel neque aliquam dignissimos non! Rem.</p>
+            </div>
+
+            <div>
+                <img src="./assets/img/react1.svg" alt="Logo do react native na cor azul, referente ao curso oferecido pela Generation">
+            </div>
+        </div>
+    </section>
+    <!--/SOBRE O CURSO-->
+
+    <!--CURRICULO-->
+    <section id="curriculo">
+        <h2 class="center">Curriculo do Curso</h2>
+
+        <div id="contCurriculo">
+            <div>
+                <h3 class="center">Bloco I</h3>
+                <ul>
+                    <li>Lorem ipsum dolor</li>
+                    <li>Lorem ipsum dolor</li>
+                    <li>Lorem ipsum dolor</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="center">Bloco II</h3>
+                <ul>
+                    <li>Lorem ipsum dolor</li>
+                    <li>Lorem ipsum dolor</li>
+                    <li>Lorem ipsum dolor</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="center"> Bloco III</h3>
+                <ul>
+                    <li>Lorem ipsum dolor</li>
+                    <li>Lorem ipsum dolor</li>
+                    <li>Lorem ipsum dolor</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--/CURRICULO-->
+
+    <!--MERCADO DE TRABALHO-->
+
+    <section id="contTrab">
+        <h2 class="center">Mercado de Trabalho</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vero temporibus, officiis harum quaerat alias impedit est cupiditate facilis tenetur iste magni ad eius explicabo itaque necessitatibus, iusto accusantium error.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, fuga pariatur! Provident, mollitia quasi. Dicta possimus autem odio molestias facilis praesentium. Dignissimos numquam iusto delectus a debitis non impedit iste?</p>
+    </section>
+    <!--/MERCADO DE TRABALHO-->
+
+    <!--INSCREVA-SE-->
+    <section id="inscrever">
+        <h2 class="center">Inscreva-se</h2>
+
+        <form>
+            <div>
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome">
+            </div>
+
+            <div>
+                <label for="nome">E-mail</label>
+                <input type="email" id="email">
+            </div>
+
+            <div>
+                <label for="nome">Data de Nascimento</label>
+                <input type="date" id="dataNasc">
+            </div>
+
+            <div>
+                <label for="estado">Onde mora</label>
+                <select name="estado" id="estado">
+                    <option value="">-- Selecione --</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="RJ">DF</option>
+                    <option value="SP">DF</option>
+            </div>
+
+            <div>
+                <label for="conheceu">Como você conheceu a Generation?</label>
+                <input type="text" id="conheceu">
+            </div>
+
+            <div>
+                <button onclick="enviar()">Enviar</button>
+             </div>
+        </form>
+    </section>
+    <!--/INSCREVA-SE-->
+    <hr>
+    <footer>
+        <div id="contFooter">
+            <a href=""><img src="./assets/img/facebook.png" alt="Logo do Facebook"></a>
+            <a href=""><img src="./assets/img/instagram.png" alt="Logo do instagram"></a>
+        </div>
+        
+        <p class="center"> &copy 2020 Generation: You Employed, Inc.</p>
+    </footer>
+</body>
+
+</html>
